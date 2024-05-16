@@ -1,0 +1,22 @@
+/* .data {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2e3241;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+} */
+
+.display-data{
+    display:flex;
+    justify-content: space-around;
+    background-color: #818389;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}

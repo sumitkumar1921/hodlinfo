@@ -1,0 +1,77 @@
+h1{
+    color:#818389;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-time{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.price{
+    color: #3DC6C1;
+    font-size: 40px;
+    font-weight: 600;
+}
+.price p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #818389;
+}
+.current{
+    color: white;
+    font-size: 70px;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.table{
+    /* font-size: 25px; */
+    font-weight: 500;
+    color:#818389 ;
+    display: flex;
+    flex-direction: column;
+    padding:10px 40px;
+    gap:5px;
+}
+
+.show-data{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.add-to-home-screen{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #191D28;
+    bottom:0px;
+}
+.add-to-home-screen button{
+
+
+    height: 40px;
+    /* margin-bottom: 5px; */
+    width: 250px;
+    border:1px solid #3DC6C1;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #3DC6C1;
+    background-color: transparent;
+    
+    &:hover{
+        color: white;
+        background-color: #3DC6C1;
+    }
+}
